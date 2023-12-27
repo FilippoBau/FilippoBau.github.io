@@ -3,7 +3,7 @@ title:       Junior Theme
 email:       jonathon.bel.melbourne@gmail.com
 author:      Jonathon Belotti
 description: "A striking black-white Jekyll theme."
-baseurl:     "https://FilippoBau.github.io"
+baseurl:     "https://FilippoBau.github.io/"
 url:         "https://thundergolfer.github.io/junior-theme"
 date_format: "%b %-d, %Y"
 
