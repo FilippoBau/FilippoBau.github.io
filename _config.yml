@@ -1,14 +1,16 @@
-title: Minimalist theme
+title: Filippo Baudanza
 logo: /assets/img/logo.png
 email: bogus at gmail dot com
 description: Minimalist is a theme powered by Jekyll. It is modified based on the Minimal theme.
 show_downloads: false
-google_analytics: G-ZLK2GHB055
+#google_analytics: G-ZLK2GHB055
+#remote_theme: BDHU/minimalist
 color-scheme: auto
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jemoji
+ # - jekyll-remote-theme
 
 # You can find fonts from https://iconify.design or https://fontawesome.com. Below is just an example illustrating how to use custom icons
 sidebar:
