@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 gemspec
 # commenting below to remove dependency with "github-pages" 
-#gem "github-pages", group: :jekyll_plugins
+gem "github-pages", group: :jekyll_plugins
 
 gem "jekyll-seo-tag"
 gem "jekyll-sitemap"
@@ -14,7 +14,7 @@ gem "jekyll-sitemap"
 # `require': cannot load such file -- webrick (LoadError)
 # adding this avoids it
 gem "webrick"
-gem "jekyll-remote-theme"
+#gem "jekyll-remote-theme"
 # adding the following gems to support removal of "github-pages" dependency
-gem "jemoji"
-gem "kramdown-parser-gfm"
+#gem "jemoji"
+#gem "kramdown-parser-gfm"
