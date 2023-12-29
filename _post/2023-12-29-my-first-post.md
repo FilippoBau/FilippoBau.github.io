@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The first"
+title: The first
 date: 2023-12-29 00:00:00 +0000
 categories: jekyll update
 ---

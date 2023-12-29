@@ -19,10 +19,11 @@ sidebar:
     link: https://github.com/FilippoBau
   - name: Linkedin
     icon: <i class="fa-brands fa-linkedin"></i>
-    link: www.linkedin.com/in/filippo-baudanza-3a62a1257
+    link: https://www.linkedin.com/in/filippo-baudanza-3a62a1257
   - name: Blog
     icon: <i class="fa-solid fa-pen"></i>
     link: https://FilippoBau.github.io/myblog.html
+
 
 collections:
   posts:
