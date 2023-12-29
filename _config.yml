@@ -22,7 +22,7 @@ sidebar:
     link: www.linkedin.com/in/filippo-baudanza-3a62a1257
   - name: Blog
     icon: <i class="fa-solid fa-pen"></i>
-    link: https://FilippoBau.github.io/blog/
+    link: https://FilippoBau.github.io/blog/myblog.html
 
 # https://github.com/github/pages-gem/issues/399#issuecomment-301827749
 # When running locally, we run into the following error —
