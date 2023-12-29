@@ -9,6 +9,8 @@ Hello, I'm Filippo, and this is my personal. I share my ideas, thoughts, and pro
 
 ## Latest Blog Posts
 
+{{ site.posts | size }}
+
 {% for post in site.posts %}
 
 - [{{ post.title }}]({{ site.url }}{{ site.baseurl }}{{ post.url }})
