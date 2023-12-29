@@ -5,6 +5,7 @@
     {% assign ColorScheme = site.color-scheme %}
 {% endcase %}
 
+
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
@@ -13,8 +14,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {% seo %}
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/colors-ColorScheme.css?v={{ site.github.build_revision | default: site.time }}">
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css?v={{ site.github.build_revision | default: site.time }}">
+    <link rel="stylesheet" href="{{ "/assets/css/colors-ColorScheme.css?v=" | replace: "ColorScheme", ColorScheme | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 
     <link rel="preload" href="{{site.logo | relative_url}}" as="image">
     <!--[if lt IE 9]>
@@ -27,7 +28,7 @@
       <div class="sidebar">
         <header>
           {% if site.logo %}
-            <img class="img-circle" src="{{site.logo | relative_url}}" alt="Logo">
+            <img class="img-circle" rel="prefetch" src="{{site.logo | relative_url}}" alt="Logo">
           {% endif %}
 
           {% if site.blank_title %}
@@ -35,11 +36,12 @@
           {% else %}
             <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
           {% endif %}
-
+          <!-- 
           {% if site.email %}
             <p class="addr"><i class="fa-regular fa-envelope"></i>&nbsp;{{ site.email }}</p>
           {% endif %}
-          
+         -->
+
           <p>{{ site.description | default: site.github.project_tagline }}</p>
 
           {% include sidebar.html %}
@@ -54,13 +56,39 @@
       </div>
       <section>
 
+      <nav>
+        <ul>
+          <li><a href="https://ludoro.github.io"><span style="font-size: 30px">Home</span></a></li>
+          <li><a href="https://machinelearningatscale.com/"><span style="font-size: 30px">ML at scale </span></a></li>
+          <li><a href="https://ludoro.github.io/books/book_index.html"><span style="font-size: 30px">Books I am writing</span></a></li>
+          <li><a href="https://ludoro.github.io/myblog/start_page.html"><span style="font-size: 30px">Blog</span></a></li>
+        </ul>
+      </nav>
+
       {{ content }}
+
+      <style>
+        nav ul {
+          display: block;
+          list-style: none;
+        }
+        nav ul li {
+          display: inline;
+          margin-right: 40px;
+          margin-left: 30px;
+        }
+        nav ul li a {
+          text-decoration: none;
+        }
+
+
+      </style>
 
       </section>
       <footer>
         {%- include footer.html -%}
       </footer>
     </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    
   </body>
 </html>
