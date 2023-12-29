@@ -9,14 +9,17 @@ Explore my thoughts, ideas, and discoveries through my blog posts. Feel free to 
 
 ## Latest Posts
 
-- **Post Title 1**
-  _Description of the post._
+{% for post in site.posts %}
 
-- **Post Title 2**
-  _Description of the post._
+## [{{ post.title }}]({{site.baseurl}}/{{ post.url }})
 
-- **Post Title 3**
-  _Description of the post._
+_{{ post.date | date: "%B %d, %Y" }}_
+
+[Continua a leggere]({{site.baseurl}}/{{ post.url }})
+
+---
+
+{% endfor %}
 
 Keep checking back for new updates!
 

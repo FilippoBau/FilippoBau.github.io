@@ -2,13 +2,23 @@
 layout: default
 ---
 
-<small>{{ page.date | date: "%-d %B %Y" }}</small>
-<h1>{{ page.title }}</h1>
+<article>
+  <header>
+    <h1>{{ page.title }} 📝</h1>
+    <p class="post-date">📅 {{ page.date | date: "%B %d, %Y" }}</p>
+  </header>
 
-<p class="view">by {{ page.author | default: site.author }}</p>
+  <div class="post-content">
+    {{ content }}
+  </div>
 
-{{content}}
+  <footer>
+    <!-- Altri elementi del footer, ad esempio tag, categorie, ecc. -->
+    
+    <p>
+      <a href="{{ site.baseurl }}/">🏠 Torna alla Home</a> |
+      <a href="{{ site.baseurl }}/blog/">📚 Torna al Blog</a>
+    </p>
+  </footer>
+</article>
 
-{% if page.tags %}
-  <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-{% endif %}
