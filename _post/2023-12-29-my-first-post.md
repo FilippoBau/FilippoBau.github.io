@@ -1,8 +1,7 @@
 ---
 layout: post
-title: The first
-date: 2023-12-29 00:00:00 +0000
-categories: jekyll update
+title: Il mio primo post
+date: 2023-01-01
 ---
 
 Contenuto del post...wHEFP WFPIHEFP WFèWEF Fè WEJF èWJFEè WJFèJFèWEFJè JMX EMXEJMXèF èJFXèQFEM JWX èFMEèOWMFXOWJEFXFMWEJX
