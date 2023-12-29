@@ -11,11 +11,11 @@ Explore my thoughts, ideas, and discoveries through my blog posts. Feel free to 
 
 {% for post in site.posts %}
 
-## [{{ post.title }}]({{site.url}}/{{ post.url }})
+## [{{ post.title }}]({{ site.url }}{{ site.baseurl }}{{ post.url }})
 
 _{{ post.date | date: "%B %d, %Y" }}_
 
-[Continua a leggere]({{site.url}}/{{ post.url }})
+[Continua a leggere]({{ site.url }}{{ site.baseurl }}{{ post.url }})
 
 ---
 
