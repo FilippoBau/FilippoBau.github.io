@@ -11,7 +11,7 @@ Hello, I'm Filippo, and this is my personal. I share my ideas, thoughts, and pro
 
 {% for post in  site.posts %}
 
-- [{{ post.title }}]({{site.baseurl}}/{{ post.url }})
+- [{{ post.title }}]({{site.url}}/{{ post.url }})
   {% endfor %}
 
 Want to read more? [Visit the Blog](./myblog.html)
