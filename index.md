@@ -15,5 +15,3 @@ Hello, I'm Filippo, and this is my personal. I share my ideas, thoughts, and pro
   {% endfor %}
 
 Want to read more? [Visit the Blog](./myblog.html)
-
-[Contact Me](/contact)
