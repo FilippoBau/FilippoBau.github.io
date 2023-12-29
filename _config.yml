@@ -29,7 +29,7 @@ collections:
     output: true
     permalink: /:collection/:title/
 
-baseurl: "/FilippoBau.github.io"
+#baseurl: "/FilippoBau.github.io"
 
 
 
