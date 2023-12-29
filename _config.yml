@@ -4,13 +4,13 @@ email: Fil.baudanza@gmail.com
 description: I'm Filippo Baudanza, a passionate Product Security Engineer at PagoPA.
 show_downloads: false
 #google_analytics: G-ZLK2GHB055
-#remote_theme: BDHU/minimalist
+remote_theme: BDHU/minimalist
 color-scheme: auto
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jemoji
-  #- jekyll-remote-theme
+  - jekyll-remote-theme
 
 # You can find fonts from https://iconify.design or https://fontawesome.com. Below is just an example illustrating how to use custom icons
 sidebar:
@@ -29,7 +29,7 @@ collections:
     output: true
     permalink: /:collection/:title/
 
-#baseurl: "/FilippoBau.github.io"
+baseurl: "/FilippoBau.github.io"
 
 
 
