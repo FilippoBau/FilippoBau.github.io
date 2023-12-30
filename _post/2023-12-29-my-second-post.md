@@ -2,6 +2,7 @@
 layout: post
 title: Il mio secondo post
 date: 2023-12-29 00:00:00 +0000
+permalink: /posts/il-mio-secondo-post/
 ---
 
 Contenuto del post...wHEFP WFPIHEFP WFèWEF Fè WEJF èWJFEè WJFèJFèWEFJè JMX EMXEJMXèF èJFXèQFEM JWX èFMEèOWMFXOWJEFXFMWEJX
