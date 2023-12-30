@@ -25,8 +25,7 @@ sidebar:
     link: https://FilippoBau.github.io/myblog.html
 
 baseurl: ""
-
-url: "https://FilippoBau.github.io"
+url: "https://FilippoBau.github.io/"
 
 collections:
   posts:
